@@ -1,0 +1,338 @@
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #5B191A;
+        padding: 20px;
+    }
+    
+    .newspaperlogo {
+        display: flex;
+    }
+    
+    .newspaperlogo1 {
+        float: right;
+    }
+    
+    .footer {
+        padding: 25px;
+    }
+    
+    .footer_nav {
+        list-style: none;
+    }
+    
+    .nav {
+        margin: 0;
+        background: black;
+        list-style: none;
+        height: 5%;
+    }
+    
+    .footer_nav li {
+        display: inline;
+    }
+    
+    .nav {
+        padding: 20px;
+    }
+    
+    .nav li {
+        margin: 0;
+        display: inline;
+        background: black;
+    }
+    
+    .footer_nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    p {
+        color: gray;
+        text-align: right;
+        padding: 10px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .header .banner_1 {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        .header .banner_1 {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .nav {
+            padding: 0;
+        }
+        .nav a {
+            font-size: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        .nav {
+            padding: 0;
+        }
+        .nav a {
+            font-size: 16px;
+        }
+    }
+    
+    @media all and (max-width: 480px) {
+        p {
+            display: none;
+        }
+    }
+    
+    @media all and (max-width: 600px) {
+        p {
+            /*display: none;*/
+            visibility: hidden;
+        }
+    }
+    
+    .container {
+        padding: 40px;
+    }
+    
+    .section1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #hidden {
+        display: none;
+    }
+    
+    .section2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    
+    #banner {
+        width: 900px;
+        margin-left: 60px;
+    }
+    
+    .becomeDeveloper {
+        padding: 15px;
+    }
+    
+    .topNews {
+        background-color: #C4C4C4;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 10px;
+    }
+    
+    a .topNews {
+        color: black;
+    }
+    
+    .popular {
+        background-color: #C4C4C4;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 10px;
+    }
+    
+    a .popular {
+        color: black;
+    }
+    
+    #img1,
+    #img2,
+    #img3 {
+        width: 380px;
+        height: 250px;
+    }
+    
+    #img4,
+    #img5,
+    #img6 {
+        width: 380px;
+        height: 250px;
+    }
+    
+    #img7,
+    #img8,
+    #img9,
+    #img10,
+    #img11 {
+        width: 500px;
+        height: 200px;
+    }
+    
+    #img1 {
+        background: url(./img/jeff.png);
+    }
+    
+    #img2 {
+        background: url(./img/eu.png);
+    }
+    
+    #img3 {
+        background: url(./img/phone.png);
+    }
+    
+    #img1,
+    #img2,
+    #img3 {
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    #img1 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #img2 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #img3 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .text1,
+    .text2,
+    .text3 {
+        font-size: 30px;
+        text-align: center;
+        background-color: black;
+    }
+    
+    .flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    
+    .bla {
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        justify-content: space-evenly;
+    }
+    
+    #img11 {
+        height: 400px;
+        width: 70px;
+    }
+    
+    .footer {
+        background-color: black;
+    }
+    
+    h3 {
+        text-align: center;
+        color: white;
+    }
+    
+    @media all and (max-width: 480px) {
+        .footer {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+    
+    @media all and (max-width: 480px) {
+        #img1,
+        #img2,
+        #img3,
+        #hidden {
+            width: 150px;
+            height: 100px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 40px;
+            padding: 2px;
+        }
+        .container {
+            padding: 5px;
+            margin-right: 80px;
+        }
+        .topNews {
+            margin: 0;
+        }
+        .popular {
+            margin: 0;
+        }
+        #hidden {
+            display: initial;
+        }
+    }
+    
+    @media all and (max-width: 600px) {
+        .text1,
+        .text2,
+        .text3 {
+            font-size: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        #img4,
+        #img5,
+        #img6 {
+            width: 50%;
+            height: 50%;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        #img7,
+        #img8,
+        #img9,
+        #img10,
+        #img11 {
+            width: 50%;
+            height: 50%;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .banner {
+            width: 50%;
+            margin-left: 0;
+        }
+    }
